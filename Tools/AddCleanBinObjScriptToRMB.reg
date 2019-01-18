@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\Directory\shell\DeleteBinObj]
+@="Delete bin and obj"
+ 
+[HKEY_CLASSES_ROOT\Directory\shell\DeleteBinObj\command]
+@="\"C:\\Tools\\clean.bat\" \"%1\""
